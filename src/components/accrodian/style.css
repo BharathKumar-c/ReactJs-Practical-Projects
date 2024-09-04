@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.wrapper button {
+  background-color: coral;
+  font-size: 18px;
+  height: 50px;
+  width: 90vh;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accrodian {
+  width: 90vh;
+}
+
+.items {
+  background-color: darkgoldenrod;
+  color: maroon;
+  padding: 15px;
+  margin: 15px 0 15px 0;
+}
+
+.title {
+  color: maroon;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

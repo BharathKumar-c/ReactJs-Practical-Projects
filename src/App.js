@@ -1,9 +1,11 @@
+import {useState} from 'react';
 import './App.css';
+import Accrodian from './components/accrodian';
 
 function App() {
   return (
     <div className="App">
-      <h1>Let's Start ReactJs Practical Projects</h1>
+      <Accrodian />
     </div>
   );
 }
