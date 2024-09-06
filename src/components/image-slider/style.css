@@ -1,0 +1,58 @@
+.container {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70vw;
+  height: 90vh;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+}
+
+.arrow {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  filter: drop-shadow(0px 0px 7px #555);
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.indicator-container {
+  position: absolute;
+  bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.circle-indicator {
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.active-indicator {
+  background: white;
+}
+.inactive-indicator {
+  background: #666;
+}
+
+.hide-img {
+  display: none;
+}
