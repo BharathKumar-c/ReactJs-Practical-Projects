@@ -1,6 +1,7 @@
 import './App.css';
 import Accrodian from './components/accrodian';
 import ImageSlider from './components/image-slider';
+import LightDarkMode from './components/light-dark-mode';
 import LoadMoreData from './components/load-more-data';
 import QrCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color';
@@ -30,7 +31,10 @@ function App() {
       {/* <TreeNavigationView menu={menu} /> */}
 
       {/* Qr code generator component */}
-      <QrCodeGenerator />
+      {/* <QrCodeGenerator /> */}
+
+      {/* light and dark mode change component */}
+      <LightDarkMode />
     </div>
   );
 }

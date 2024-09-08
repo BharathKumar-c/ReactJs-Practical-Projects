@@ -1,0 +1,36 @@
+:root {
+  --background: #ffffff;
+  --text-primary: #000000;
+  --bg-btn: #000000;
+  --btn-txt: #ffffff;
+}
+
+[data-theme='dark'] {
+  --background: #000000;
+  --text-primary: #ffffff;
+  --bg-btn: #ffffff;
+  --btn-txt: #000000;
+}
+
+.light-dark-mode {
+  background-color: var(--background);
+  color: var(--text-primary);
+  height: 100vh;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.light-dark-mode button {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  background-color: var(--bg-btn);
+  color: var(--btn-txt);
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
