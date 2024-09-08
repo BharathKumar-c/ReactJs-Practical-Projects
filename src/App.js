@@ -2,6 +2,7 @@ import './App.css';
 import Accrodian from './components/accrodian';
 import ImageSlider from './components/image-slider';
 import LoadMoreData from './components/load-more-data';
+import QrCodeGenerator from './components/qr-code-generator';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 import TreeNavigationView from './components/tree-navigation-view';
@@ -26,7 +27,10 @@ function App() {
       {/* <LoadMoreData limit={20} /> */}
 
       {/* Tree navigation view/ recurtion navigation /tree view component */}
-      <TreeNavigationView menu={menu} />
+      {/* <TreeNavigationView menu={menu} /> */}
+
+      {/* Qr code generator component */}
+      <QrCodeGenerator />
     </div>
   );
 }
