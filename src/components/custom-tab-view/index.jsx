@@ -14,7 +14,9 @@ const CustomTabView = ({tabContent}) => {
             tabContent.map((tabItem, index) => (
               <div
                 key={index}
-                className="tab-menu-btn"
+                className={`${
+                  currentTabIndex === index ? 'tab-active' : ''
+                } tab-menu-btn`}
                 onClick={() => handleTabChange(index)}>
                 {tabItem.label}
               </div>
