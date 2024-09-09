@@ -12,6 +12,7 @@ import TreeNavigationView from './components/tree-navigation-view';
 import menu from './components/tree-navigation-view/data';
 import {tabs} from './components/custom-tab-view/data';
 import CustomModalTest from './components/custom-modal';
+import GithubProfileFinder from './components/github-profile-finder';
 
 function App() {
   return (
@@ -47,7 +48,10 @@ function App() {
       {/* <CustomTabView tabContent={tabs} /> */}
 
       {/* custom modal component */}
-      <CustomModalTest />
+      {/* <CustomModalTest /> */}
+
+      {/* Github profile finder by userName */}
+      <GithubProfileFinder />
     </div>
   );
 }
