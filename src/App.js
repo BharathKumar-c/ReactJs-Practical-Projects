@@ -1,5 +1,6 @@
 import './App.css';
 import Accrodian from './components/accrodian';
+import CustomTabView from './components/custom-tab-view';
 import ImageSlider from './components/image-slider';
 import LightDarkMode from './components/light-dark-mode';
 import LoadMoreData from './components/load-more-data';
@@ -9,6 +10,7 @@ import ScrollIndicator from './components/scroll-indicator';
 import StarRating from './components/star-rating';
 import TreeNavigationView from './components/tree-navigation-view';
 import menu from './components/tree-navigation-view/data';
+import {tabs} from './components/custom-tab-view/data';
 
 function App() {
   return (
@@ -38,7 +40,10 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* scroll indicator component */}
-      <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
+      {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100" /> */}
+
+      {/* custom tab view component */}
+      <CustomTabView tabContent={tabs} />
     </div>
   );
 }
