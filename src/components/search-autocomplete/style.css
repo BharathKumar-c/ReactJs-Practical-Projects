@@ -1,0 +1,44 @@
+.search-autocomplete-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 10vh;
+}
+
+.search-autocomplete-container input {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  width: 50vw;
+}
+
+.suggestion-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: full;
+  padding-left: 0;
+}
+
+.suggestion-container ul li {
+  margin-left: 0;
+  width: 50vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.3rem;
+  border-bottom: 1px solid crimson;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.suggestion-container ul li:hover {
+  background-color: #e7e7e7;
+}
