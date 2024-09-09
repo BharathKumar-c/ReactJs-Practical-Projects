@@ -11,6 +11,7 @@ import StarRating from './components/star-rating';
 import TreeNavigationView from './components/tree-navigation-view';
 import menu from './components/tree-navigation-view/data';
 import {tabs} from './components/custom-tab-view/data';
+import CustomModalTest from './components/custom-modal';
 
 function App() {
   return (
@@ -43,7 +44,10 @@ function App() {
       {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100" /> */}
 
       {/* custom tab view component */}
-      <CustomTabView tabContent={tabs} />
+      {/* <CustomTabView tabContent={tabs} /> */}
+
+      {/* custom modal component */}
+      <CustomModalTest />
     </div>
   );
 }
