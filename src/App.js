@@ -19,6 +19,7 @@ import FeatureFlagGlobalState from './components/feature-flag/context';
 import FeatureFlags from './components/feature-flag';
 import TestUseFetchHook from './components/hooks/use-fetch/testFetchHook';
 import TestOutSideClick from './components/hooks/use-outside-click/test';
+import TestWindowResizeHook from './components/hooks/use-window-resize/test';
 
 function App() {
   return (
@@ -74,7 +75,10 @@ function App() {
       {/* <TestUseFetchHook /> */}
 
       {/* outsit click popup will close hook */}
-      <TestOutSideClick />
+      {/* <TestOutSideClick /> */}
+
+      {/* custom hooks - to get the window resize value example: height and width */}
+      <TestWindowResizeHook />
     </div>
   );
 }
