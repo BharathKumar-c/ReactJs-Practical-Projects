@@ -14,6 +14,7 @@ import {tabs} from './components/custom-tab-view/data';
 import CustomModalTest from './components/custom-modal';
 import GithubProfileFinder from './components/github-profile-finder';
 import SearchAutocomplete from './components/search-autocomplete';
+import TicTacToe from './components/tic-tac-toe';
 
 function App() {
   return (
@@ -55,7 +56,10 @@ function App() {
       {/* <GithubProfileFinder /> */}
 
       {/* Search autocomplete component */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      {/* Tic tac toe game component */}
+      <TicTacToe />
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1px;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  margin-right: 0.2rem;
+  border: 1px solid rgb(2, 99, 211);
+  border-radius: 5px;
+  float: left;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.square:hover {
+  background-color: rgb(245, 229, 202);
+}
+
+.restart-btn {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  background-color: #0e60db;
+  color: aliceblue;
+}
