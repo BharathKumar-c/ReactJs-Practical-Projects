@@ -18,6 +18,7 @@ import TicTacToe from './components/tic-tac-toe';
 import FeatureFlagGlobalState from './components/feature-flag/context';
 import FeatureFlags from './components/feature-flag';
 import TestUseFetchHook from './components/hooks/use-fetch/testFetchHook';
+import TestOutSideClick from './components/hooks/use-outside-click/test';
 
 function App() {
   return (
@@ -70,7 +71,10 @@ function App() {
       </FeatureFlagGlobalState> */}
 
       {/* Custom hooks - Use Fetch hooks */}
-      <TestUseFetchHook />
+      {/* <TestUseFetchHook /> */}
+
+      {/* outsit click popup will close hook */}
+      <TestOutSideClick />
     </div>
   );
 }
