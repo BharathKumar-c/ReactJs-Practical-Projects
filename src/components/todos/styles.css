@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-wrapper input {
+  padding: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+.input-wrapper button {
+  padding: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  background-color: rgb(53, 0, 139);
+  color: rgb(202, 169, 253);
+  cursor: pointer;
+}
+.input-wrapper button:hover {
+  background-color: rgb(71, 1, 184);
+}
+
+.todo-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-content ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  width: 18rem;
+  text-align: left;
+  background-color: rgb(228, 226, 218);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}

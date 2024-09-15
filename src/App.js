@@ -22,6 +22,7 @@ import TestOutSideClick from './components/hooks/use-outside-click/test';
 import TestWindowResizeHook from './components/hooks/use-window-resize/test';
 import ScrollTopToBottom from './components/scroll-top-to-bottom';
 import ScrollToSection from './components/scroll-top-to-bottom/scroll-to-section';
+import Todos from './components/todos';
 
 function App() {
   return (
@@ -86,7 +87,10 @@ function App() {
       {/* <ScrollTopToBottom /> */}
 
       {/* scroll to a particual section component */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      {/* Todos app */}
+      <Todos />
     </div>
   );
 }
